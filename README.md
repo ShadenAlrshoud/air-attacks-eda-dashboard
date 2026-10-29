@@ -25,7 +25,8 @@ These insights can help us better understand the challenges that air defense fac
 | `app.py` | Streamlit dashboard |
 | `requirements.txt` | Python libraries needed |
 | `.streamlit/config.toml` | Dark theme settings for the dashboard |
-| `Report.pdf` | Full project report |
+
+The interactive Streamlit dashboard is live at: air-attacks-eda-dashboard.streamlit.app and lets anyone explore the data with filters, without installing anything.
 
 ## How to run the dashboard
 1. Install the required libraries:
@@ -38,6 +39,7 @@ These insights can help us better understand the challenges that air defense fac
    streamlit run app.py
    ```
 4. The dashboard opens in your browser at `http://localhost:8501`.
+
 
 ## Dashboard features
 * **Sidebar:** dataset description and filters (year range slider, weapon type dropdown, weapon models multiselect, attack size slider)
